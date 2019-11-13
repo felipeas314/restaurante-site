@@ -3,7 +3,7 @@ html {
 }
 
 .fonte-titulo {
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
 }
 
 .imagem-carrossel {
@@ -55,22 +55,4 @@ html {
 
 a {
   color: #8d0606;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
 }

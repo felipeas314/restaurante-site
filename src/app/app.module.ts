@@ -5,6 +5,12 @@ import { HttpClientModule } from "@angular/common/http";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { RestaurantesModule } from "./restaurantes/restaurantes.module";
+import { HeaderModule } from "./header/header.module";
+import { RestauranteDetalheModule } from "./restaurante-detalhe/restaurante-detalhe.module";
+import { FooterModule } from "./footer/footer.module";
+import { SobreModule } from "./sobre/sobre.module";
+import { EventosModule } from "./eventos/eventos.module";
+import { ContatoModule } from "./contato/contato.module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,7 +20,13 @@ import { RestaurantesModule } from "./restaurantes/restaurantes.module";
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    RestaurantesModule
+    HeaderModule,
+    FooterModule,
+    RestaurantesModule,
+    RestauranteDetalheModule,
+    SobreModule,
+    EventosModule,
+    ContatoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
